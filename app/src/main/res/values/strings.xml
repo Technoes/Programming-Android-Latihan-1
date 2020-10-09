@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Latihan1</string>
+    <string name="textView_Main_Judul">Selamat Datang</string>
+    <string name="imageView_Main_Gambar">Activity Main Picture</string>
+    <string name="button_Main_Submit">Submit</string>
+    <string name="nama_mahasiswa">M. Dwiyan Hartono</string>
+    <string name="nim_mahasiswa">3420160144</string>
+</resources>
