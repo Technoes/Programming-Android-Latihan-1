@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
@@ -27,12 +28,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:scaleType="fitXY"
         android:contentDescription="@string/imageView_Main_Gambar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_Main_Judul"
-        app:srcCompat="@drawable/dwiyan" />
+        android:src="@drawable/dwiyan" />
 
 
     <TextView
@@ -68,6 +68,8 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="16dp"
         android:text="@string/button_Main_Submit"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_background_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
